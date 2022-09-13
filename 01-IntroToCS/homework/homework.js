@@ -15,14 +15,12 @@ return suma;
 function DecimalABinario(num) {
   // tu codigo aca
 var array = [];
-while (num > 0) {
+while (num !== 0) {
   array.unshift(num % 2);
   num = Math.trunc(num / 2)
 }
   return array.join('');
 }
-
-
 
 module.exports = {
   BinarioADecimal,
