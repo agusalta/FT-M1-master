@@ -45,14 +45,11 @@ En esa ultima expresión tenemos la ejecución que va a resolver el problema, la
 
 ``` javascript
   function recursiva(num) {
-    
     // planteamos un caso base que cuando llegue a este retorne un valor
     if(`caso base`) return
-
     // acá pondríamos que operación se tendría que repetir, puede ser tan
     // simple como puedan imaginar o increíblemente compleja
     c = a + b
-
     // una vez realizada la operación lo que queda es repetirla hasta llegar
     // al caso base, entonces necesitamos una `llamada recursiva`.
     return recursiva(c)
