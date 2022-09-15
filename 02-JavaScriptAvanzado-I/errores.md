@@ -29,7 +29,7 @@ Para hacer esto en JavaScript vamos a usar el statement: `try` y `catch`:
       try {
          //Código a ejecutar
          [break;]
-      } 
+      }     
       
       catch ( e ) {
          // Código a ejecutar si ocurre una excepción (acá la agarramos)
