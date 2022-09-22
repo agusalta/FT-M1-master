@@ -42,7 +42,16 @@ function insertionSort(array) {
   // el array recibido como parámetro utilizando arreglos
   // Devolver el array ordenado resultante
   // Tu código:
-
+  for (var i = 0; i < array.length; i++) {
+    for (var j = 0; j < array.length; j++) {
+      if (array[j] > array[j + 1]) {
+        var aux = array[j];
+        array[j] = array[j + 1];
+        array[j + 1] = aux;
+      }
+    }
+  }
+  return array;                                                                                         
 }
 
 
@@ -51,7 +60,16 @@ function selectionSort(array) {
   // el array recibido como parámetro utilizando dos arreglos
   // Devolver el array ordenado resultante
   // Tu código:
-
+  for (var i = 0; i < array.length; i++) {
+    for (var j = 0; j < array.length; j++) {
+      if (array[j] > array[j + 1]) {
+        var aux = array[j];
+        array[j] = array[j + 1];
+        array[j + 1] = aux;
+      }
+    }
+  }
+  return array;
 }
 
 
